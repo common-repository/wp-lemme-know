@@ -1,0 +1,36 @@
+.wp-lemme-know-admin-dashboard-list {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 8px;
+}
+
+.wp-lemme-know-admin-dashboard-list table {
+    width: 100%;
+}
+
+.wp-lemme-know-admin-dashboard-list table thead {
+    font-weight: bold;
+    text-align: left;
+}
+
+.wp-lemme-know-admin-dashboard-list table thead tr th {
+    padding: 4px 12px;
+}
+
+.wp-lemme-know-admin-dashboard-list table tbody {
+    color: #646970;
+}
+
+.wp-lemme-know-admin-dashboard-list table tbody tr td {
+    padding: 4px 12px;
+}
+
+.wp-lemme-know-admin-dashboard-list table tbody tr td a:link,
+.wp-lemme-know-admin-dashboard-list table tbody tr td a:visited,
+.wp-lemme-know-admin-dashboard-list table tbody tr td a:hover {
+    text-decoration: none;
+}
+
+.wp-lemme-know-admin-dashboard-list table tbody tr:nth-child(odd) {
+    background: #f6f7f7;
+}

@@ -1,0 +1,119 @@
+.wp-lemme-know-widget {
+    padding: 30px 20px;
+    background: #8e8e8e;
+    margin: 10px 0;
+    border-radius: 10px;
+
+    /* extra font smoothing */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-lemme-know-widget .wp-lemme-know-widget-description {
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.wp-lemme-know-widget > fieldset {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.wp-lemme-know-widget > fieldset > label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.wp-lemme-know-widget > fieldset > input[type=email] {
+    width: 93%;
+    border-radius: 0;
+    border: none;
+    padding: 5px 8px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.wp-lemme-know-widget > fieldset > button {
+    border: none;
+    color: #fff;
+    margin-top: 7px;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 5px 12px;
+    font-weight: bold;
+    background: #dd5820;
+    background: -moz-linear-gradient(top, #dd5820 0%, #db3c03 100%);
+    background: -webkit-linear-gradient(top, #dd5820 0%, #db3c03 100%);
+    background: linear-gradient(to bottom, #dd5820 0%, #db3c03 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr='#dd5820',
+            endColorstr='#db3c03',
+            GradientType=0
+    );
+}
+
+.wp-lemme-know-widget > fieldset > button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.wp-lemme-know-widget .wp-lemme-know-widget-status {
+    display: none;
+    margin: 15px 0 5px 0;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+}
+
+.wp-lemme-know-widget .wp-lemme-know-widget-error {
+    background: #8e8e8e;
+    background: -moz-linear-gradient(left, #8e8e8e 0%, #960707 50%, #8e8e8e 100%);
+    background: -webkit-linear-gradient(left, #8e8e8e 0%, #960707 50%, #8e8e8e 100%);
+    background: linear-gradient(to right, #8e8e8e 0%, #960707 50%, #8e8e8e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr='#8e8e8e',
+            endColorstr='#8e8e8e',
+            GradientType=1
+    );
+}
+
+.wp-lemme-know-widget .wp-lemme-know-widget-success {
+    background: #8e8e8e;
+    background: -moz-linear-gradient(left, #8e8e8e 0%, #357005 50%, #8e8e8e 100%);
+    background: -webkit-linear-gradient(left, #8e8e8e 0%, #357005 50%, #8e8e8e 100%);
+    background: linear-gradient(to right, #8e8e8e 0%, #357005 50%, #8e8e8e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr='#8e8e8e',
+            endColorstr='#8e8e8e',
+            GradientType=1
+    );
+}
+
+.wp-lemme-know-widget .wp-lemme-know-widget-progress {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto auto auto;
+    background: url('../images/preloader.svg') no-repeat;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation: preloader_spin 1s linear infinite;
+    animation: preloader_spin 1s linear infinite;
+}
+
+@keyframes preloader_spin {
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}

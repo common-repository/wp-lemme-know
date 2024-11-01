@@ -1,0 +1,23 @@
+.wp-lemme-know-admin-test-results {
+    margin-top: 20px;
+    display: none;
+}
+
+.wp-lemme-know-admin-test-results-caption {
+    font-weight: bold;
+}
+
+.wp-lemme-know-admin-test-results-error {
+    color: #aa0f12;
+}
+
+.wp-lemme-know-admin-test-results-success {
+    color: #3b8e1f;
+}
+
+.wp-lemme-know-admin-test-results-body {
+    color: #ccc;
+    margin-top: 10px;
+    background: #000;
+    padding: 10px;
+}
